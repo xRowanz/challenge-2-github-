@@ -65,3 +65,9 @@ function showTime(){
 	        }
 
 	       	showTime();
+
+//Animatie klok --------------
+window.onload = function(){
+	var timeline = new TimelineMax({repeat: -1});
+	timeline.to('#tijd', 50, {ease: Elastic.easeOut.config(10), y:(2.4)});
+};
