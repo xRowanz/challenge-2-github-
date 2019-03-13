@@ -1,0 +1,35 @@
+body{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	font-size: 70px;
+	font-family: DS-Digital;
+}
+
+h2{
+	color: white;
+	font-size: 30px;
+	font-family: DS-Digital;
+}
+
+.moon{
+	display: block;
+	margin: 1.3em auto;
+	max-width: 65%;
+	margin-top: 300px;
+	opacity: 0;
+}
+
+.sun{
+	display: block;
+	margin: 1.3em auto;
+	max-width: 65%;
+	margin-top: 300px;
+	opacity: 0;
+}
+
+.cloud{
+	position: fixed;
+}
